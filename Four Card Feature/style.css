@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Fraunces', serif;
+}
+body{
+  font-size: 15px;
+  min-height: 100vh;
+}
+h2{
+  text-align: center;
+}
+.first-header{
+  margin-top: 60px;
+  font-weight: 200;
+  opacity: 0.5;
+}
+.first-p{
+  text-align: center;
+  font-weight: 200;
+  opacity: 0.5;
+}
+.container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.supervisor{
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-radius: 4px;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+.supervisor h3{
+  margin: 30px 0 0 30px;
+  font-weight: 600;
+}
+.supervisor p{
+  margin-left: 30px;
+  opacity: 0.5;
+}
+
+.supervisor img{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.team-builder{
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-radius: 4px;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+.team-builder h3{
+  margin: 30px 0 0 30px;
+  font-weight: 600;
+}
+.team-builder p{
+  margin-left: 30px;
+  opacity: 0.5;
+}
+
+.team-builder img{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.karma{
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-radius: 4px;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+.karma h3{
+  margin: 30px 0 0 30px;
+  font-weight: 600;
+}
+.karma p{
+  margin-left: 30px;
+  opacity: 0.5;
+}
+
+.karma img{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.calculator{
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-radius: 4px;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+.calculator h3{
+  margin: 30px 0 0 30px;
+  font-weight: 600;
+}
+.calculator p{
+  margin-left: 30px;
+  opacity: 0.5;
+}
+
+.calculator img{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+@media (min-width: 1440px) {
+  .container{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+  .supervisor{
+    position: absolute;
+    left: 395px;
+    top: 120px;
+  }
+  .calculator{
+    position: absolute;
+    top: 120px;
+    right: 390px;
+  }
+}
